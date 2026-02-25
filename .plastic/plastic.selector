@@ -1,0 +1,4 @@
+repository "Stroming/Stroming@13469695325856@cloud"
+  path "/"
+    br "/main"
+    co "/main"
