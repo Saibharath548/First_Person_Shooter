@@ -36,7 +36,6 @@ public class ParticleCollision : MonoBehaviour, ISetParent
                 Destroy(hole.gameObject, 5f);
             }
         }
-
         /* For Ragdoll Animator Twitch
 
         bool hasAnimator = false;

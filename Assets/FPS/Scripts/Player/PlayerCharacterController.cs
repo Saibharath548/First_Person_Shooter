@@ -43,6 +43,7 @@ public class PlayerCharacterController : MonoBehaviour
         Vector3 movementDirection = new Vector3(playerForwardCalculation.x, normalisedMovementInput.y, playerForwardCalculation.z);
 
         characterControllerComponent.Move(movementDirection * playerSpeedMultiplier * Time.deltaTime);
+        characterControllerComponent.SimpleMove(Vector3.zero);
     }
 
     public Vector3 GetPlayerCurrentVelocity()
